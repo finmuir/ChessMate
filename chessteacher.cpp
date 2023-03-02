@@ -19,6 +19,15 @@ ChessTeacher::ChessTeacher(QWidget *parent)
 
     QPixmap pix1("../ChessTeacher/images/book2.png");
     ui->tutorialimage->setPixmap(pix1);
+
+    QPixmap pix2("../ChessTeacher/images/freeimage.png");
+    ui->freeplayimage->setPixmap(pix2);
+
+    QPixmap pix3("../ChessTeacher/images/puzzleimage.png");
+    ui->puzzleimage->setPixmap(pix3);
+
+    QPixmap pix4("../ChessTeacher/images/swordimage.png");
+    ui->tacticsimage->setPixmap(pix4);
 }
 
 ChessTeacher::~ChessTeacher()
