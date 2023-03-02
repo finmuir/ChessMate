@@ -24,29 +24,146 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="GameplayPage">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
      <widget class="QLabel" name="gameplayTitle">
       <property name="geometry">
        <rect>
-        <x>160</x>
-        <y>10</y>
-        <width>461</width>
-        <height>91</height>
+        <x>240</x>
+        <y>40</y>
+        <width>311</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>28</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Select Game Mode</string>
+       <string>Game Mode</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gametomenuButton">
+      <property name="geometry">
+       <rect>
+        <x>712</x>
+        <y>10</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Main Menu</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tutorialButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>190</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Tutorial</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="freeplayButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>270</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Free Play</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="puzzleButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>350</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Puzzle</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tacticsButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>430</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tactics Trainer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tutorialimage">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>190</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
     </widget>
@@ -62,9 +179,12 @@
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>48</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(26, 26, 26);</string>
       </property>
       <property name="text">
        <string>Chess Teacher</string>
@@ -84,7 +204,7 @@
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>14</pointsize>
        </font>
       </property>
@@ -103,7 +223,7 @@
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>14</pointsize>
        </font>
       </property>
@@ -122,7 +242,7 @@
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>14</pointsize>
        </font>
       </property>
@@ -141,7 +261,7 @@
       </property>
       <property name="font">
        <font>
-        <family>TechnicBold</family>
+        <family>Dubai Medium</family>
         <pointsize>14</pointsize>
        </font>
       </property>
@@ -152,10 +272,10 @@
      <widget class="QLabel" name="homepageWallpaper">
       <property name="geometry">
        <rect>
-        <x>-10</x>
-        <y>-40</y>
-        <width>861</width>
-        <height>651</height>
+        <x>-140</x>
+        <y>-10</y>
+        <width>1071</width>
+        <height>671</height>
        </rect>
       </property>
       <property name="text">
@@ -172,6 +292,80 @@
      <zorder>newsButton</zorder>
      <zorder>exitgameButton</zorder>
     </widget>
+    <widget class="QWidget" name="RulesPage">
+     <widget class="QLabel" name="RulesTitle">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>10</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rules</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="rulestomenuButton">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>0</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Main Menu</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="Rules">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>781</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="plainText">
+       <string>1. Chess is played on a square board with 64 squares, arranged in an 8x8 grid.
+2. Each player starts the game with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns.
+3. The objective of the game is to checkmate your opponent's king, which means placing their king under attack in such a way that there is no legal move they can make to escape capture.
+4. Each piece has its own unique moves and captures. Pawns move forward one or two squares on their first move, and then one square at a time thereafter. Pawns capture diagonally one square forward.
+5. The king moves one square in any direction. The queen moves any number of squares diagonally, horizontally, or vertically. The rook moves any number of squares horizontally or vertically. The bishop moves any number of squares diagonally. The knight moves in an L-shape: two squares in one direction, and then one square perpendicular to that.
+6. Players take turns making moves, starting with White.
+7. If a player's king is in check, they must remove the check by either moving the king out of danger, capturing the attacking piece, or blocking the attack with another piece.
+8. If a player makes a move that places their own king in check, the move is not allowed.
+9. If a player's king is checkmated, the game is over and the other player wins. If the game ends in a stalemate, it is a draw.
+10. Other rules, such as castling and en passant, allow for strategic maneuvers and are essential to master for advanced play.</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TutorialPage"/>
    </widget>
   </widget>
  </widget>

@@ -18,6 +18,14 @@ public:
 
 private slots:
     void on_startgameButton_clicked();
+    void on_exitgameButton_clicked();
+    void on_newsButton_clicked();
+
+    void on_rulesButton_clicked();
+
+    void on_gametomenuButton_clicked();
+
+    void on_rulestomenuButton_clicked();
 
 private:
     Ui::ChessTeacher *ui;
