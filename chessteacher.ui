@@ -23,13 +23,39 @@
       <height>601</height>
      </rect>
     </property>
-    <widget class="QWidget" name="HomePage"/>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
     <widget class="QWidget" name="GameplayPage">
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="gameplayTitle">
       <property name="geometry">
        <rect>
-        <x>110</x>
-        <y>30</y>
+        <x>160</x>
+        <y>10</y>
+        <width>461</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>TechnicBold</family>
+        <pointsize>28</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Select Game Mode</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="HomePage">
+     <widget class="QLabel" name="homepageTitle">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
         <width>561</width>
         <height>121</height>
        </rect>
@@ -47,19 +73,104 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="startgameButton">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>210</x>
         <y>230</y>
-        <width>83</width>
-        <height>29</height>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>TechnicBold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Start Game</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="rulesButton">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>230</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>TechnicBold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rules</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="newsButton">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>310</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>TechnicBold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>News</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="exitgameButton">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>310</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>TechnicBold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="homepageWallpaper">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-40</y>
+        <width>861</width>
+        <height>651</height>
        </rect>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
+     <zorder>homepageWallpaper</zorder>
+     <zorder>homepageTitle</zorder>
+     <zorder>startgameButton</zorder>
+     <zorder>rulesButton</zorder>
+     <zorder>newsButton</zorder>
+     <zorder>exitgameButton</zorder>
     </widget>
    </widget>
   </widget>

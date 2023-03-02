@@ -2,6 +2,7 @@
 #define CHESSTEACHER_H
 
 #include <QMainWindow>
+#include <QGraphicsPixmapItem>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ChessTeacher; }
@@ -14,6 +15,9 @@ class ChessTeacher : public QMainWindow
 public:
     ChessTeacher(QWidget *parent = nullptr);
     ~ChessTeacher();
+
+private slots:
+    void on_startgameButton_clicked();
 
 private:
     Ui::ChessTeacher *ui;
