@@ -46,6 +46,10 @@
         <bold>false</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(190, 190, 190);
+</string>
+      </property>
       <property name="text">
        <string>Game Mode</string>
       </property>
@@ -214,8 +218,38 @@
        <bool>true</bool>
       </property>
      </widget>
+     <widget class="QLabel" name="gameplayWallpaper">
+      <property name="geometry">
+       <rect>
+        <x>-140</x>
+        <y>-10</y>
+        <width>1071</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>gameplayWallpaper</zorder>
+     <zorder>gameplayTitle</zorder>
+     <zorder>gametomenuButton</zorder>
+     <zorder>tutorialButton</zorder>
+     <zorder>freeplayButton</zorder>
+     <zorder>puzzleButton</zorder>
+     <zorder>tacticsButton</zorder>
+     <zorder>tutorialimage</zorder>
+     <zorder>freeplayimage</zorder>
+     <zorder>puzzleimage</zorder>
+     <zorder>tacticsimage</zorder>
     </widget>
     <widget class="QWidget" name="HomePage">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
      <widget class="QLabel" name="homepageTitle">
       <property name="geometry">
        <rect>
@@ -232,7 +266,7 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(26, 26, 26);</string>
+       <string notr="true">color: rgb(190, 190, 190);</string>
       </property>
       <property name="text">
        <string>Chess Teacher</string>
@@ -334,11 +368,11 @@
       </property>
      </widget>
      <zorder>homepageWallpaper</zorder>
-     <zorder>homepageTitle</zorder>
      <zorder>startgameButton</zorder>
      <zorder>rulesButton</zorder>
      <zorder>newsButton</zorder>
      <zorder>exitgameButton</zorder>
+     <zorder>homepageTitle</zorder>
     </widget>
     <widget class="QWidget" name="RulesPage">
      <widget class="QLabel" name="RulesTitle">
@@ -355,6 +389,9 @@
         <family>Dubai Medium</family>
         <pointsize>14</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(190, 190, 190);</string>
       </property>
       <property name="text">
        <string>Rules</string>
@@ -393,11 +430,14 @@
       <property name="font">
        <font>
         <family>Dubai Medium</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="verticalScrollBarPolicy">
        <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
       <property name="plainText">
        <string>1. Chess is played on a square board with 64 squares, arranged in an 8x8 grid.
@@ -412,8 +452,28 @@
 10. Other rules, such as castling and en passant, allow for strategic maneuvers and are essential to master for advanced play.</string>
       </property>
      </widget>
+     <widget class="QLabel" name="rulesWallpaper">
+      <property name="geometry">
+       <rect>
+        <x>-140</x>
+        <y>-10</y>
+        <width>1071</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>rulesWallpaper</zorder>
+     <zorder>RulesTitle</zorder>
+     <zorder>rulestomenuButton</zorder>
+     <zorder>Rules</zorder>
     </widget>
-    <widget class="QWidget" name="TutorialPage"/>
+    <widget class="QWidget" name="FreePlayPage"/>
    </widget>
   </widget>
  </widget>

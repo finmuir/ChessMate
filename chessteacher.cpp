@@ -17,17 +17,23 @@ ChessTeacher::ChessTeacher(QWidget *parent)
     QPixmap pix("../ChessTeacher/images/ChessPiecesWallpaper.png");
     ui->homepageWallpaper->setPixmap(pix);
 
-    QPixmap pix1("../ChessTeacher/images/book2.png");
+    QPixmap pix1("../ChessTeacher/images/book3.png");
     ui->tutorialimage->setPixmap(pix1);
 
     QPixmap pix2("../ChessTeacher/images/freeimage.png");
     ui->freeplayimage->setPixmap(pix2);
 
-    QPixmap pix3("../ChessTeacher/images/puzzleimage.png");
+    QPixmap pix3("../ChessTeacher/images/puzzleImage1.png");
     ui->puzzleimage->setPixmap(pix3);
 
     QPixmap pix4("../ChessTeacher/images/swordimage.png");
     ui->tacticsimage->setPixmap(pix4);
+
+    QPixmap pix5("../ChessTeacher/images/ChessPiecesWallpaper.png");
+    ui->gameplayWallpaper->setPixmap(pix5);
+
+    QPixmap pix6("../ChessTeacher/images/ChessPiecesWallpaper.png");
+    ui->rulesWallpaper->setPixmap(pix6);
 }
 
 ChessTeacher::~ChessTeacher()
@@ -66,5 +72,11 @@ void ChessTeacher::on_gametomenuButton_clicked()
 void ChessTeacher::on_rulestomenuButton_clicked()
 {
     ui->stackedWidget->setCurrentWidget(ui->HomePage);
+}
+
+
+void ChessTeacher::on_freeplayButton_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->FreePlayPage);
 }
 

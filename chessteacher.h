@@ -27,6 +27,8 @@ private slots:
 
     void on_rulestomenuButton_clicked();
 
+    void on_freeplayButton_clicked();
+
 private:
     Ui::ChessTeacher *ui;
 };
