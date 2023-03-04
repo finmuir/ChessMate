@@ -17,7 +17,12 @@ set(PROJECT_SOURCES
         chessteacher.cpp
         chessteacher.h
         chessteacher.ui
+        FreePlay/Game.cpp
+        FreePlay/Game.h
+        chessboard.cpp
+        chessboard.h
 )
+
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(ChessTeacher

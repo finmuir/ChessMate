@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="GameplayPage">
      <property name="styleSheet">
@@ -473,7 +473,46 @@
      <zorder>rulestomenuButton</zorder>
      <zorder>Rules</zorder>
     </widget>
-    <widget class="QWidget" name="FreePlayPage"/>
+    <widget class="QWidget" name="FreePlayPage">
+     <widget class="QLabel" name="chessBoardLabel">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>581</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(0, 0, 0);
+ border: 5px solid black;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="freeplayWallpaper">
+      <property name="geometry">
+       <rect>
+        <x>-140</x>
+        <y>-10</y>
+        <width>1071</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>freeplayWallpaper</zorder>
+     <zorder>chessBoardLabel</zorder>
+    </widget>
    </widget>
   </widget>
  </widget>

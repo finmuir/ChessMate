@@ -34,6 +34,17 @@ ChessTeacher::ChessTeacher(QWidget *parent)
 
     QPixmap pix6("../ChessTeacher/images/ChessPiecesWallpaper.png");
     ui->rulesWallpaper->setPixmap(pix6);
+
+    QPixmap pix7("../ChessTeacher/images/ChessPiecesWallpaper.png");
+    ui->freeplayWallpaper->setPixmap(pix7);
+
+    // Create a new ChessBoard object
+    chessBoard = new ChessBoard(this);
+
+    // Find the chess board QLabel on the UI and set its pixmap
+    chessBoardLabel = findChild<QLabel*>("chessBoardLabel");
+    chessBoard->setChessBoardImage(chessBoardLabel);
+
 }
 
 ChessTeacher::~ChessTeacher()
