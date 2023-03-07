@@ -25,11 +25,13 @@ private slots:
     void on_gametomenuButton_clicked();
     void on_rulestomenuButton_clicked();
     void on_freeplayButton_clicked();
+    void on_freeplaytomenuButton_clicked();
 
 private:
     Ui::ChessTeacher *ui;
     ChessBoard *chessBoard;
     QLabel *chessBoardLabel;
+    std::map<std::string, QLabel*> freePlayLabels;
 
 };
 #endif // CHESSTEACHER_H
