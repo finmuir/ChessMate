@@ -6,6 +6,9 @@
 #include <QLabel>
 #include <map>
 #include <string>
+#include <QGraphicsPixmapItem>
+#include <QGraphicsScene>
+#include <QGraphicsSceneMouseEvent>
 
 class ChessBoard : public QObject
 {
@@ -21,10 +24,23 @@ public:
     void setPieceOnLabel(QLabel *label, QString piece);
 
     // Set the images of all pieces on the board
-    void setPiecesOnBoard(const std::map<std::string, QLabel*>& labels);
+    void setPiecesOnBoardFreePlay(const std::map<std::string, QLabel*>& labels);
+
+    //set the images of all pieces on the board on tactics page
+    void setPiecesOnBoardTactics(const std::map<std::string, QLabel*>& labels);
+
+    //set the images of all pieces on the board on puzzle page
+    void setPiecesOnBoardPuzzle(const std::map<std::string, QLabel*>& labels);
+
+    //set the images of all pieces on the board on puzzle page
+    void setPiecesOnBoardTutorial(const std::map<std::string, QLabel*>& labels);
+
+
 
 private:
     QPixmap chessBoardPixmap;
+    // Define the game state as a 2D array of chess pieces
+
 };
 
 #endif // CHESSBOARD_H

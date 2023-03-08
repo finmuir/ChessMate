@@ -17,8 +17,8 @@ set(PROJECT_SOURCES
         chessteacher.cpp
         chessteacher.h
         chessteacher.ui
-        FreePlay/Game.cpp
-        FreePlay/Game.h
+        Tutorial/Game.cpp
+        Tutorial/Game.h
         chessboard.cpp
         chessboard.h
 )

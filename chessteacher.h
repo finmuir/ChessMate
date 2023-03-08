@@ -26,12 +26,22 @@ private slots:
     void on_rulestomenuButton_clicked();
     void on_freeplayButton_clicked();
     void on_freeplaytomenuButton_clicked();
+    void on_tutorialButton_clicked();
+    void on_puzzleButton_clicked();
+    void on_tacticsButton_clicked();
+    void setupBoardTactics();
+    void setupBoardFreePlay();
+    void setupBoardPuzzle();
+    void setupBoardTutorial();
+    void on_tutorialbackButton_clicked();
+    void on_tacticsbackButton_clicked();
+    void on_puzzlebackButton_clicked();
 
 private:
     Ui::ChessTeacher *ui;
     ChessBoard *chessBoard;
     QLabel *chessBoardLabel;
-    std::map<std::string, QLabel*> freePlayLabels;
-
 };
+
 #endif // CHESSTEACHER_H
+
