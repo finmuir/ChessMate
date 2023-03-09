@@ -7,6 +7,7 @@
 #include <QGraphicsPixmapItem>
 #include <QGraphicsScene>
 #include <QGraphicsSceneMouseEvent>
+#include <QMouseEvent>
 
 ChessBoard::ChessBoard(QObject *parent) : QObject(parent)
 {
@@ -115,7 +116,7 @@ void ChessBoard::setPiecesOnBoardTutorial(const std::map<std::string, QLabel*>& 
         {"e8_4", "kingb"}, {"f8_4", "bishop2b"}, {"g8_4", "knight2b"}, {"h8_4", "rook2b"}
     };
 
-    // Loop over all the labels
+//     Loop over all the labels
     for (auto& label : labels) {
         // Get the position from the map key
         std::string position = label.first;
@@ -126,7 +127,16 @@ void ChessBoard::setPiecesOnBoardTutorial(const std::map<std::string, QLabel*>& 
             setPieceOnLabel(label.second, QString::fromStdString(pieceName));
         }
     }
+
 }
+
+void ChessBoard::resetPieceOnLabel(QLabel* label)
+{
+    QPixmap nullPixmap(1, 1);
+    nullPixmap.fill(Qt::transparent);
+    label->setPixmap(nullPixmap);
+}
+
 
 void ChessBoard::setPieceOnLabel(QLabel *label, QString piece)
 {

@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QGraphicsPixmapItem>
 #include "chessboard.h"
+#include <QPlainTextEdit>
+#include <QStack>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ChessTeacher; }
@@ -36,11 +38,17 @@ private slots:
     void on_tutorialbackButton_clicked();
     void on_tacticsbackButton_clicked();
     void on_puzzlebackButton_clicked();
+    void on_introTutorialButton_clicked();
+    void on_pawnButton_clicked();
+
+    void on_rookButton_clicked();
 
 private:
     Ui::ChessTeacher *ui;
     ChessBoard *chessBoard;
     QLabel *chessBoardLabel;
+
+
 };
 
 #endif // CHESSTEACHER_H

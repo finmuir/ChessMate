@@ -1,11 +1,15 @@
 #include "chessteacher.h"
 #include "./ui_chessteacher.h"
+#include "chessboard.h"
 #include <QGraphicsScene>
 #include <QtCore>
 #include <QPixmap>
 #include <QGraphicsPixmapItem>
 #include <QDesktopServices>
 #include <QMessageBox>
+#include <QString>
+#include <QStringList>
+#include <QTreeWidgetItem>
 
 ChessTeacher::ChessTeacher(QWidget *parent)
     : QMainWindow(parent)
@@ -107,8 +111,8 @@ void ChessTeacher::on_freeplaytomenuButton_clicked()
 void ChessTeacher::on_tutorialbackButton_clicked()
 {
     ui->stackedWidget->setCurrentWidget(ui->GameplayPage);
-}
 
+}
 
 void ChessTeacher::on_tacticsbackButton_clicked()
 {
@@ -199,15 +203,8 @@ void ChessTeacher::setupBoardTutorial()
 
     // Set the pieces on the board
     chessBoard->setPiecesOnBoardTutorial(labels);
+//     Create a map of positions to labels with "_4" appended to the label name
 
-}
-
-void ChessTeacher::on_tutorialButton_clicked()
-{
-    ui->stackedWidget->setCurrentWidget(ui->TutorialPage);
-    setupBoardTutorial();
-    QLabel* tutorialChessBoardLabel = findChild<QLabel*>("tutorialchessBoardLabel");
-    chessBoard->setChessBoardImage(tutorialChessBoardLabel);
 }
 
 void ChessTeacher::setupBoardPuzzle()
@@ -236,5 +233,110 @@ void ChessTeacher::on_puzzleButton_clicked()
     setupBoardPuzzle();
     QLabel* puzzleChessBoardLabel = findChild<QLabel*>("puzzlechessBoardLabel");
     chessBoard->setChessBoardImage(puzzleChessBoardLabel);
+}
+
+void ChessTeacher::on_tutorialButton_clicked()
+{
+
+    ui->stackedWidget->setCurrentWidget(ui->TutorialPage);
+    setupBoardTutorial();
+    QLabel* tutorialChessBoardLabel = findChild<QLabel*>("tutorialchessBoardLabel");
+    chessBoard->setChessBoardImage(tutorialChessBoardLabel);
+    ui->tutorialstep2TextEdit->setVisible(false);
+    ui->rookTextEdit->setVisible(false);
+    ui->tutorialstep1TextEdit->setVisible(!ui->tutorialstep1TextEdit->isVisible());
+
+}
+
+void ChessTeacher::on_introTutorialButton_clicked()
+{
+    ui->tutorialstep1TextEdit->setVisible(!ui->tutorialstep1TextEdit->isVisible());
+    ui->tutorialstep2TextEdit->setVisible(false);
+    ui->rookTextEdit->setVisible(false);
+
+    std::map<std::string, QLabel*> clearmid;
+    clearmid["a3_4"] = findChild<QLabel*>("a3_4");
+    clearmid["b4_4"] = findChild<QLabel*>("b4_4");
+
+    // Clear the pieces on the board
+    for (auto& label : clearmid) {
+        chessBoard->resetPieceOnLabel(label.second);
+    }
+
+    ui->stackedWidget->setCurrentWidget(ui->TutorialPage);
+    setupBoardTutorial();
+    QLabel* tutorialChessBoardLabel = findChild<QLabel*>("tutorialchessBoardLabel");
+    chessBoard->setChessBoardImage(tutorialChessBoardLabel);
+}
+
+void ChessTeacher::on_pawnButton_clicked()
+{
+    // Create a new map with the desired layout of pieces
+    std::map<std::string, QLabel*> pawn;
+    pawn["a2_4"] = findChild<QLabel*>("a3_4");
+    pawn["b2_4"] = findChild<QLabel*>("b4_4");
+    // add the remaining labels for the desired layout
+
+    // Create a map to clear the previous positions
+    std::map<std::string, QLabel*> clearLabels;
+    clearLabels["a2_4"] = findChild<QLabel*>("a2_4");
+    clearLabels["b2_4"] = findChild<QLabel*>("b2_4");
+    clearLabels["f5_4"] = findChild<QLabel*>("f5_4");
+
+    // Set the pieces on the board with the new map
+    chessBoard->setPiecesOnBoardTutorial(clearLabels);
+
+    chessBoard->setPiecesOnBoardTutorial(pawn);
+
+    // Clear the previous positions with the clear map
+    for (auto& label : clearLabels) {
+        chessBoard->setPieceOnLabel(label.second, "");
+    }
+
+    ui->tutorialstep2TextEdit->setVisible(!ui->tutorialstep2TextEdit->isVisible());
+    ui->tutorialstep1TextEdit->setVisible(false);
+    ui->rookTextEdit->setVisible(false);
+}
+
+
+void ChessTeacher::on_rookButton_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->TutorialPage);
+    setupBoardTutorial();
+    QLabel* tutorialChessBoardLabel = findChild<QLabel*>("tutorialchessBoardLabel");
+    chessBoard->setChessBoardImage(tutorialChessBoardLabel);
+
+   // Create a new map with the desired layout of pieces
+    std::map<std::string, QLabel*> rook;
+    rook["h1_4"] = findChild<QLabel*>("f5_4");
+    // add the remaining labels for the desired layout
+
+    // Create a map to clear the previous positions
+    std::map<std::string, QLabel*> clearLabels2;
+    clearLabels2["h1_4"] = findChild<QLabel*>("h1_4");
+    // add the remaining labels for the positions to be cleared
+
+    std::map<std::string, QLabel*> clearmid;
+    clearmid["a3_4"] = findChild<QLabel*>("a3_4");
+    clearmid["b4_4"] = findChild<QLabel*>("b4_4");
+
+    // Clear the pieces on the board
+    for (auto& label : clearmid) {
+        chessBoard->resetPieceOnLabel(label.second);
+    }
+
+    chessBoard->setPiecesOnBoardTutorial(clearLabels2);
+
+    chessBoard->setPiecesOnBoardTutorial(rook);
+
+    // Clear the previous positions with the clear map
+    for (auto& label : clearLabels2) {
+        chessBoard->setPieceOnLabel(label.second, "");
+    }
+
+    ui->tutorialstep2TextEdit->setVisible(false);
+    ui->tutorialstep1TextEdit->setVisible(false);
+    ui->rookTextEdit->setVisible(!ui->rookTextEdit->isVisible());
+
 }
 

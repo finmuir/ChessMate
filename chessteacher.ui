@@ -3015,7 +3015,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_113">
+     <widget class="QLabel" name="e3_4">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -3029,6 +3029,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="g1_4">
@@ -3050,7 +3053,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_114">
+     <widget class="QLabel" name="a5_4">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -3065,8 +3068,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_115">
+     <widget class="QLabel" name="a6_4">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -3081,8 +3087,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_116">
+     <widget class="QLabel" name="h6_4">
       <property name="geometry">
        <rect>
         <x>610</x>
@@ -3096,6 +3105,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="f7_4">
@@ -3136,7 +3148,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_117">
+     <widget class="QLabel" name="g6_6">
       <property name="geometry">
        <rect>
         <x>540</x>
@@ -3150,6 +3162,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="d1_4">
@@ -3190,7 +3205,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_118">
+     <widget class="QLabel" name="b3_4">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -3204,6 +3219,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="f8_4">
@@ -3225,7 +3243,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_119">
+     <widget class="QLabel" name="d4_4">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -3240,8 +3258,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_120">
+     <widget class="QLabel" name="d6_4">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -3255,6 +3276,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="d8_4">
@@ -3276,7 +3300,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_121">
+     <widget class="QLabel" name="f3_4">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -3290,6 +3314,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="b2_4">
@@ -3425,7 +3452,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_122">
+     <widget class="QLabel" name="c6_4">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -3439,6 +3466,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="a2_4">
@@ -3498,7 +3528,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_123">
+     <widget class="QLabel" name="c3_4">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -3513,8 +3543,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_124">
+     <widget class="QLabel" name="g5_4">
       <property name="geometry">
        <rect>
         <x>540</x>
@@ -3528,6 +3561,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="c4_4">
@@ -3545,8 +3581,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_126">
+     <widget class="QLabel" name="h5_4">
       <property name="geometry">
        <rect>
         <x>610</x>
@@ -3560,6 +3599,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="f1_4">
@@ -3600,7 +3642,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_127">
+     <widget class="QLabel" name="f5_4">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -3615,8 +3657,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_128">
+     <widget class="QLabel" name="c5_4">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -3631,8 +3676,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_129">
+     <widget class="QLabel" name="e4_4">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -3647,8 +3695,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_130">
+     <widget class="QLabel" name="h4_4">
       <property name="geometry">
        <rect>
         <x>610</x>
@@ -3663,8 +3714,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_131">
+     <widget class="QLabel" name="a3_4">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -3679,8 +3733,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_132">
+     <widget class="QLabel" name="h3_4">
       <property name="geometry">
        <rect>
         <x>610</x>
@@ -3694,6 +3751,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="h7_4">
@@ -3753,7 +3813,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_133">
+     <widget class="QLabel" name="d3_4">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -3768,8 +3828,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_134">
+     <widget class="QLabel" name="g4_4">
       <property name="geometry">
        <rect>
         <x>540</x>
@@ -3783,6 +3846,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="b1_4">
@@ -3861,7 +3927,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_135">
+     <widget class="QLabel" name="e5_4">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -3876,8 +3942,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_136">
+     <widget class="QLabel" name="b4_4">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -3892,8 +3961,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_137">
+     <widget class="QLabel" name="g3_4">
       <property name="geometry">
        <rect>
         <x>540</x>
@@ -3907,6 +3979,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="d2_4">
@@ -3928,7 +4003,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_138">
+     <widget class="QLabel" name="f4_4">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -3943,8 +4018,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_139">
+     <widget class="QLabel" name="f6_4">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -3958,6 +4036,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="a1_4">
@@ -3998,7 +4079,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_140">
+     <widget class="QLabel" name="a4_4">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -4013,8 +4094,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_141">
+     <widget class="QLabel" name="b6_4">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -4028,6 +4112,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="e2_4">
@@ -4049,7 +4136,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_142">
+     <widget class="QLabel" name="b5_4">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -4064,8 +4151,11 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
-     <widget class="QLabel" name="label_143">
+     <widget class="QLabel" name="d5_4">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -4079,6 +4169,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="g7_4">
@@ -4100,7 +4193,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_144">
+     <widget class="QLabel" name="e6_4">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -4114,6 +4207,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="tutorialbackButton">
@@ -4132,6 +4228,125 @@
       </property>
       <property name="text">
        <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="tutorialstep1TextEdit">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>200</y>
+        <width>301</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="plainText">
+       <string>Welcome to the Chess Tutorial! 
+In this tutorial, you will learn the basics of how to play chess. By the end of this tutorial, you will have a good understanding of the rules of chess and be ready to start playing!</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="tutorialstep2TextEdit">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>270</y>
+        <width>301</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="plainText">
+       <string>Lets start off with the pawn. The pawn is the most basic piece in chess, and it has the simplest move. It can only move forward one square at a time, except for its very first move when it can move two squares. The pawn captures diagonally and can never move backward. It is the only piece that cannot move backward, making it a valuable piece in creating a forward advance on the board.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="introTutorialButton">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>40</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Intro</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pawnButton">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>70</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pawn</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="rookButton">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>100</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rook</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="rookTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>311</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Dubai Medium'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI';&quot;&gt;The rook is a chess piece that represents a tower or castle. It is one of the major pieces in the game and is placed on either end of the row next to the king. The rook is capable of moving any number of squares vertically or horizontally in a straight line, as long as no other pieces are blocking its path. The rook is a powerful piece in the endgame, and can be used to control open files and invade the enemy's position.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -4237,6 +4452,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="d7_2">
@@ -4436,7 +4654,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_67">
+     <widget class="QLabel" name="c3_2">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -4741,7 +4959,7 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_62">
+     <widget class="QLabel" name="b5_2">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -4807,6 +5025,9 @@
       <property name="text">
        <string/>
       </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
      <widget class="QLabel" name="label_75">
       <property name="geometry">
@@ -4838,6 +5059,9 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="label_73">
@@ -5050,7 +5274,7 @@
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="label_71">
+     <widget class="QLabel" name="d3_2">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -5101,7 +5325,7 @@
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="label_65">
+     <widget class="QLabel" name="f4_2">
       <property name="geometry">
        <rect>
         <x>470</x>
@@ -5310,6 +5534,19 @@
        <string>Back</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>150</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
      <zorder>tacticspageWallpaper</zorder>
      <zorder>tacticschessBoardLabel</zorder>
      <zorder>label_80</zorder>
@@ -5325,7 +5562,7 @@
      <zorder>f2_2</zorder>
      <zorder>label_55</zorder>
      <zorder>e1_2</zorder>
-     <zorder>label_67</zorder>
+     <zorder>c3_2</zorder>
      <zorder>label_66</zorder>
      <zorder>b2_2</zorder>
      <zorder>label_60</zorder>
@@ -5339,7 +5576,7 @@
      <zorder>a1_2</zorder>
      <zorder>label_77</zorder>
      <zorder>f7_2</zorder>
-     <zorder>label_62</zorder>
+     <zorder>b5_2</zorder>
      <zorder>c1_2</zorder>
      <zorder>label_59</zorder>
      <zorder>label_63</zorder>
@@ -5354,10 +5591,10 @@
      <zorder>label_64</zorder>
      <zorder>label_61</zorder>
      <zorder>label_72</zorder>
-     <zorder>label_71</zorder>
+     <zorder>d3_2</zorder>
      <zorder>a7_2</zorder>
      <zorder>label_74</zorder>
-     <zorder>label_65</zorder>
+     <zorder>f4_2</zorder>
      <zorder>g2_2</zorder>
      <zorder>label_51</zorder>
      <zorder>b1_2</zorder>
@@ -5377,6 +5614,7 @@
      <zorder>e8_2</zorder>
      <zorder>a8_2</zorder>
      <zorder>tacticsbackButton</zorder>
+     <zorder>pushButton_2</zorder>
     </widget>
    </widget>
   </widget>
