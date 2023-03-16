@@ -17,10 +17,20 @@ set(PROJECT_SOURCES
         chessteacher.cpp
         chessteacher.h
         chessteacher.ui
-        Tutorial/Game.cpp
-        Tutorial/Game.h
-        chessboard.cpp
-        chessboard.h
+        pawn.cpp
+        pawn.h
+        rook.cpp
+        rook.h
+        knight.cpp
+        knight.h
+        bishop.cpp
+        bishop.h
+        queen.cpp
+        queen.h
+        king.cpp
+        king.h
+        board.cpp
+        board.h
 )
 
 

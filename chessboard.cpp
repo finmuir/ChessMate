@@ -137,7 +137,6 @@ void ChessBoard::resetPieceOnLabel(QLabel* label)
     label->setPixmap(nullPixmap);
 }
 
-
 void ChessBoard::setPieceOnLabel(QLabel *label, QString piece)
 {
     // Load the image of the piece and set it as the pixmap of the given QLabel
