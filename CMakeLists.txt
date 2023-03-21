@@ -31,6 +31,12 @@ set(PROJECT_SOURCES
         king.h
         board.cpp
         board.h
+        piece.cpp
+        piece.h
+        clickablelabel.h
+        chessmove.cpp
+        chessmove.h
+        clickablelabel.cpp
 )
 
 
